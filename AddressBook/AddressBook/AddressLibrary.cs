@@ -128,7 +128,7 @@ namespace AdressBook
         public void StateFilter(string State, List<Contact> filteredList)
         {
             Dictionary<string, AddressBook>.Enumerator enumerator = Library.GetEnumerator();
-            while (enumerator.MoveNext())//Move.Next =method//Enumerator(Enum)
+            while (enumerator.MoveNext())
             {
                 enumerator.Current.Value.StateFilter(State, filteredList);
             }
