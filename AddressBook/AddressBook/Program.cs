@@ -1,11 +1,10 @@
 ﻿using AdressBook;
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Welcome To Address Book Program");
-            AddressBookLibrary bookLibrary = new AddressBookLibrary();
-            bookLibrary.AddressBookMenu();
-            Console.ReadLine();
-        }
-    }
+internal class Program
+{
+    //    static void Main(string[] args)
+    //    {
+    //        Console.WriteLine("Welcome To Address Book Program");
+    //        AddressBook bookLibrary = new AddressBook();
+    //    }
+}
+
